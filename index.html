@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="//db.onlinewebfonts.com/c/51ba22ae06790efd464bde752a2cd9d1?family=Flexo" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href="assets/pokeball.png">
+</head>
+<body>
+    <header id="header">
+        <img src="assets/logo.svg" alt="Logo" id="logo">
+    </header>
+
+    <main>
+        <div class="info-pokedex">
+            <div class="info-text">
+                <h2 id="he">What is Pokédex?</h2>
+                <p>The Pokédex is an electronic device designed to catalogue and provide information regarding the various species of Pokémon.</p>
+                <div class="info-add">
+                    <h3>Add Pokémon to your Pokédex!</h3>
+                    <form action="/searcher" method="POST" id="search" class="form" autocomplete="off">
+                        <input type="text" name="searcher" placeholder="Write a Pokémon!" id="searcher" onfocus=this.value=''>
+                        <input type="submit" value="Submit" id="btn-submit">
+                    </form>
+                </div>
+            </div>
+            <div class="info-img">
+                 <img src="assets/pokedex.png" alt="Pokédex" id="pokedex-img">
+            </div>
+        </div>
+        <div class="pokedex">
+            <h3>These are your Pokémon</h3>
+            <div class="container">
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <p>Salvador Gutiérrez Romo 4A Software BIS</p>
+        <p>©2021 Pokémon. TM, ®Nintendo.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

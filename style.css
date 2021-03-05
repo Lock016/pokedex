@@ -1,0 +1,122 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Flexo";
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    background-color: #ffdb01;
+    padding: 10px;
+}
+
+#logo {
+    max-height: 75px;
+    margin-left: 30px;
+}
+
+.info-pokedex {
+    height: 60vh;
+    background-color: #316bb3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.info-text h2{
+    font-size: 50px;
+}
+
+.info-pokedex p {
+    max-width: 450px;
+    margin: 30px 0;
+}
+
+.info-pokedex h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#pokedex-img {
+    max-height: 500px;
+}
+
+#searcher {
+    font-family: "Flexo";
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+#btn-submit {
+    font-family: "Flexo";
+    font-size: 18px;
+    font-weight: 700;
+    color: #316bb3;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: .2s all ;
+}
+
+#btn-submit:hover {
+    color: white;
+    background-color: #316bb3;
+}
+
+.pokedex {
+    background-color: rgb(240, 240, 240);
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 22.6vh;
+}
+
+.pokedex h3{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1056px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 15px 30px;
+    margin: 10px 10px;
+}
+
+#name { 
+    font-size: 25px;
+}
+
+.delete {
+    color: rgb(207, 0, 0);
+    font-weight: 700;
+}
+
+#footer {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: rgb(224, 224, 224);
+    background-color: rgb(41, 41, 41);
+}
